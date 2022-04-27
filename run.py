@@ -153,6 +153,25 @@ def main():
             print("Enter username")
             default_user_name = input()
 
+            print("Enter password")
+            default_user_password = input()
+            print("\n")
+
+
+        else:
+            print("login was successful")
+            print('\n')
+            print('\n')
+
+    elif short_code =='ex':
+        break
+    else:
+        print("Enter valid code to continue")
+
+
+if __name__ == '__main__':
+  main()
+
 
 
 
