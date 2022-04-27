@@ -1,4 +1,5 @@
 #!/usr/bin/env python3.8
+from email.policy import default
 import random
 from lib2to3.pgen2.tokenize import generate_tokens
 from user import User
@@ -140,7 +141,18 @@ def main():
     elif short_code == 'lg':
         print("Welcome")
         print("please enter your username")
-        
+        default_user_name = input()
+
+
+        print("Enter your password")
+        default_user_password = input()
+        print('\n')
+
+        while default_user_name != 'testuser' or default_user_name != '09876':
+            print("invalid username or password. Username 'testuser' and password '09876'")
+            print("Enter username")
+            default_user_name = input()
+
 
 
 
