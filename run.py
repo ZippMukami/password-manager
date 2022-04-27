@@ -118,5 +118,32 @@ def main():
 
         else:
             print(f"congratulations {user_name}! account creation successful")
+            print('\n')
+            print("Enter username")
+            print("Username")
+            entered_username = input()
+            print ("Enter password")
+            entered_password = input()
+
+        while entered_password != user_name or entered_password != created_user_password:
+            print("invalid username or password")
+            print("username")
+            entered_username = input()
+            print("Enter password")
+            entered_password = input()
+
+        else:
+                print(f"welcome: {entered_username} to your password manager account")
+                print('\n')
+
+
+    elif short_code == 'lg':
+        print("Welcome")
+        print("please enter your username")
+        
+
+
+
+
 
 
