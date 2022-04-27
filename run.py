@@ -113,6 +113,10 @@ def main():
             print("invalid! Password did not match!")
             print("enter your password")
             created_user_password = input ()
-            
+            print("confirm your password")
+            confirm_password = input()
+
+        else:
+            print(f"congratulations {user_name}! account creation successful")
 
 
