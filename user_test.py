@@ -1,7 +1,7 @@
 from cgi import test
 import unittest
 from user import User
-import pyperclip
+# import pyperclip
 
 
 class TestUser(unittest.TestCase):

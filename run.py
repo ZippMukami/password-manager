@@ -3,6 +3,7 @@ from email.policy import default
 import random
 from lib2to3.pgen2.tokenize import generate_tokens
 from user import User
+# from user_test import pyperclip
 
 
 
