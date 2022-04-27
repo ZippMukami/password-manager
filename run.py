@@ -15,4 +15,12 @@ def save_users(user):
      '''
      Function to save user
      '''
-     user.save_contact()
+     user.save_user()
+
+
+# delete credential function
+def delete_credentials(user):
+    '''
+    Function to delete a user
+    '''
+    user.delete_user()
