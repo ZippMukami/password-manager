@@ -5,6 +5,7 @@ from lib2to3.pgen2.tokenize import generate_tokens
 from user import User
 
 
+
 # create account function
 def create_new_user(user_name, password, phone_number, email):
     '''
@@ -64,7 +65,7 @@ def display_users():
 def main():
     print("hello! Welcome to Password Manager")
     print('\n')
-    print("use these short code : creating a new user- nu, ca -create new account, da-display accounts, fa -find accounts, ip -input password, gp-generate password, ex -exit the account list")
+    print("use these short code : creating a new user- nu, da-display accounts, fa -find accounts, ip -input password, gp-generate password, ex -exit the account list")
     short_code = input().lower()
     print('\n')
 
@@ -130,10 +131,10 @@ def main():
             print('\n')
             print('\n')
 
-    # elif short_code == 'ex':
-    #     break
-    # else:
-    #     print("Enter valid code to continue")
+    elif short_code == 'ex':
+       
+    
+        print("Enter valid code to continue")
 
 
 if __name__ == '__main__':
