@@ -31,3 +31,10 @@ def find_user(number):
     Function that finds a user by number and returns the contact
     '''
     return User.find_by_number(number)
+
+#check if a contact exists
+def check_existing_user(number):
+    '''
+    function that check if a contact exists with that number and return a boolean.
+    '''
+    return User.user_exist(number)
