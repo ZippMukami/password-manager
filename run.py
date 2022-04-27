@@ -10,4 +10,9 @@ def create_user(user_name, password, phone_number, email):
       new_user = User (user_name, password, phone_number, email)
       return new_user
 
-
+# save account function
+def save_users(user):
+     '''
+     Function to save user
+     '''
+     user.save_contact()
