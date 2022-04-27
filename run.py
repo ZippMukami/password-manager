@@ -3,7 +3,7 @@ from user import User
 
 
 #create account function
-def create_user(user_name, password, phone_number, email):
+def create_new_user(user_name, password, phone_number, email):
       '''
       Function to create a new user
       '''
@@ -19,8 +19,15 @@ def save_users(user):
 
 
 # delete credential function
-def delete_credentials(user):
+def delete_user(user):
     '''
     Function to delete a user
     '''
     user.delete_user()
+
+#Finding a user
+def find_user(number):
+    '''
+    Function that finds a user by number and returns the contact
+    '''
+    return User.find_by_number(number)
