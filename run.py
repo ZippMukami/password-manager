@@ -58,41 +58,7 @@ def display_users():
     return User.display_users()
 
 
-# def main():
-#     print("Hello! Welcome to Password Manager. Kindly enter your name")
-#     user_name   = input()
-#     print(f"Hello {user_name}!")
-#     print('\n')
 
-#     while True:
-#         print("use these short code : ca -create new account, da-display accounts, fa -find accounts, ip -input password, gp-generate password, ex -exit the account list")
-#         short_code = input().lower()
-#         if short_code == 'ca':
-#             print("New Account")
-#             print("-"*10)
-
-#             print("User Name....")
-#             user_name = input()
-
-#             print("phone number...")
-#             p_number = input()
-
-#             print("Email address...")
-#             e_address = input()
-
-#             print("IP - To input own password:\n GP - To generate random Password")
-#             password_Choice = input().lower().strip()
-
-#             if password_Choice == 'ip':
-#                 password = input ("Enter Password\n")
-#                 break
-
-#             elif password_Choice == 'gp':
-#                 password = generate_password()
-#                 break
-
-#             else:
-#                 print("Wrong password, please try againg")
 
 
 def main():
