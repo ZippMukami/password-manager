@@ -93,3 +93,26 @@ def display_users():
 def main():
     print("hello! Welcome to Password Manager")
     print('\n')
+    print("use these short code : creating a new user- nu, ca -create new account, da-display accounts, fa -find accounts, ip -input password, gp-generate password, ex -exit the account list")
+    short_code = input().lower()
+    print('\n')
+
+
+    if short_code == "nu":
+        print("create username")
+        user_name = input()
+
+        print ("create password")
+        user_password = input()
+
+        print("confirm password")
+        confirm_password = input()
+
+
+        while confirm_password != created_user_password:
+            print("invalid! Password did not match!")
+            print("enter your password")
+            created_user_password = input ()
+            
+
+
